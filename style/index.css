@@ -1,1 +1,222 @@
-/* Add CSS styling here */
+@import url('https://fonts.googleapis.com/css2?family=Chelsea+Market&family=Roboto+Mono:wght@400;700&display=swap');
+/*CSS Rest*/
+html, body, div, span, applet, object, iframe,  
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,  
+a, abbr, acronym, address, big, cite, code,  
+del, dfn, em, img, ins, kbd, q, s, samp,  
+small, strike, strong, sub, sup, tt, var,  
+b, u, i, center,  
+dl, dt, dd, ol, ul, li,  
+fieldset, form, label, legend,  
+table, caption, tbody, tfoot, thead, tr, th, td,  
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup,  
+menu, nav, output, ruby, section, summary,  
+time, mark, audio, video {  
+margin: 0;  
+padding: 0;  
+/* border: 0;   */
+font-size: 100%;  
+font: inherit;  
+vertical-align: baseline;  
+}
+
+@import url(https://fonts.googleapis.com/css2?family=Chelsea+Market&family=Roboto+Mono:wght@400;700&display=swap);
+
+* {
+  box-sizing: border-box;
+  max-width: 100%;
+}
+
+body {
+  font-family: 'Chelsea Market', cursive;
+  font-size: 1.6rem;
+  line-height: 1.5;
+  margin: 6%;
+  padding: 0%;
+}
+
+
+h1 {
+  text-align: center;
+}
+
+
+.links {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  width: 100%;
+  height: 60px;
+}
+
+a:link, a:visited a:hover {
+  padding: 14px 25px;
+  text-align: center;
+  text-decoration: none;
+  color: black;
+  display: inline-block;
+}
+
+.home:visited {
+  padding: 14px 25px;
+  text-align: center;
+  color: black;
+  text-decoration: none;
+}
+
+.home:link {
+  padding: 14px 25px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+}
+
+.home:hover {
+  padding: 14px 25px;
+  text-align: center;
+  text-decoration: none;
+  color: white;
+  display: inline-block;
+}
+
+.about:visited {
+  padding: 14px 25px;
+  text-align: center;
+  color: black;
+  text-decoration: none;
+}
+.about:link {
+  padding: 14px 25px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+}
+
+.about:hover {
+  padding: 14px 25px;
+  text-align: center;
+  text-decoration: none;
+  color: white;
+  display: inline-block;
+}
+
+.cons:visited {
+  padding: 14px 25px;
+  text-align: center;
+  color: black;
+  text-decoration: none;
+}
+.cons:link {
+  padding: 14px 25px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+}
+
+.cons:hover {
+  padding: 14px 25px;
+  text-align: center;
+  text-decoration: none;
+  color: white;
+  display: inline-block;
+}
+
+.pro:visited {
+  padding: 14px 25px;
+  text-align: center;
+  color: black;
+  text-decoration: none;
+}
+
+.pro:link {
+  padding: 14px 25px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+}
+
+.pro:hover {
+  padding: 14px 25px;
+  text-align: center;
+  text-decoration: none;
+  color: white;
+  display: inline-block;
+}
+
+.contact:hover {
+  color: white;
+}
+
+a:hover {
+  font-family: arial;
+  color: white;
+}
+
+/* I rewrote all the a tags classes and wrote class:hover class:link and class:visited for each a tag. I had to move the .contact class for a(contact-me) link up further on the style sheet.  */
+
+a.home {
+  background-color: green;
+}
+
+a.about {
+  background-color: yellow;
+}
+
+a.cons {
+  background-color: purple;
+}
+
+a.pro {
+ background-color: red;
+}
+
+ a.contact {
+   color: purple;
+   background-color: black;
+  }
+
+p {
+  padding: 5px;
+}
+
+.randomimage {
+  background-image: url(https://images.unsplash.com/photo-1519124142585-bc4d4d7ddb45?ixid=MXwxMjA3fDB8MHx0b3BpYy1mZWVkfDUzfDZzTVZqVExTa2VRfHxlbnwwfHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60);
+  height:80vh;
+  background-size:cover;
+  background-position:top;
+  background-repeat:no-repeat;
+  width: 50%;
+  margin-left: 25%;
+  padding: 0%;
+  border-radius: 50%;
+  opacity: 0.8;
+}
+
+.flex-pics {
+  display: flex;
+  flex-basis: auto;
+  justify-content: space-between;
+  height: 10px;
+  padding: 5px;
+}
+
+/* This is how I got the images to resize and keep their same aspect ration */
+
+img {
+    display: block;
+    max-width:230px;
+    max-height:200px;
+    width: auto;
+    height: auto;
+    padding: 5px;
+  }
+
+.bank {
+  display: block;
+  margin-top: 25%;
+  padding: 100px;
+  width: 100%;
+  background-color: grey;
+  text-align: center;
+}/* Add CSS styling here */
