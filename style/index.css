@@ -308,9 +308,15 @@ div img {
     flex-direction: column;
     width: 50%;
     height: 100vh;
-    margin: 10%;
+    margin-left: 13%;
     text-align: center;
+  }
 
+  h1 {
+    text-align: center;
+    margin-left: 30%;
+    margin-bottom: 5%;
+    font-size: 1.5rem;
   }
 
   .links {
@@ -328,18 +334,19 @@ div img {
     display: flex;
     flex-direction: column;
     text-align: center;
-    margin: 20%;
   }
 
   .intro div {
     display: flex;
     flex-direction: column;
+    margin-left: 50%;
   }
 
   div p {
     word-wrap: break-word;
     font-size: 1.1rem;
     text-align: center;
+    margin-left: 27%;
   }
 
   .flex-pics {
